@@ -1,0 +1,17 @@
+.header_container {
+    margin-top: 5em;
+    /* min-height: 500px; */
+    padding: 3em;
+    border-radius: 25px;
+    border: 2px solid #4B0082;
+    background-color: #F0F0F0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.navbar-custom {
+    background-color: #4B0082;
+}
+
+.tasks_container {
+    margin-top: 2em;
+}
