@@ -24,5 +24,23 @@ export const tasks: TaskList = [
     "date": "2023-10-18",
     "title": "Zadanie 4",
     "content": "Ostateczna ocena projektu i przygotowanie prezentacji."
+  },
+  {
+    "id": 5,
+    "date": "2023-10-19",
+    "title": "Zadanie 5",
+    "content": "Przygotować plan działań na następny miesiąc."
+  },
+  {
+    "id": 6,
+    "date": "2023-10-20",
+    "title": "Zadanie 6",
+    "content": "Analiza konkurencji i identyfikacja potencjalnych zagrożeń."
+  },
+  {
+    "id": 7,
+    "date": "2023-10-21",
+    "title": "Zadanie 7",
+    "content": "Szkolenie z nowego narzędzia w pracy."
   }
 ]
