@@ -4,6 +4,8 @@
 </ng-template> -->
 <div *ngIf="data && data.length > 0">
 
-    <app-task-card *ngFor="let task of data" [task]="task"></app-task-card>
+    <app-task-card *ngFor="let task of data" [task]="task"
+    (deleteEvent)="handleDelete($event)"
+    ></app-task-card>
 
 </div>
