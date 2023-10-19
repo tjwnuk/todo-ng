@@ -1,7 +1,11 @@
 <div class="card-body">
     <div class=" d-flex justify-content-between">
         <h5 class="card-title">{{task.title}}</h5>
-        <p>{{task.id}}</p>
+        <!-- <p>{{task.id}}</p> -->
+        <fa-icon
+        [icon]="faTimes"
+        [ngStyle]="{color: 'red'}"
+        ></fa-icon>
     </div>
     <h6 class="card-subtitle mb-2 text-muted">{{task.date}}</h6>
     <p>{{task.content}}</p>

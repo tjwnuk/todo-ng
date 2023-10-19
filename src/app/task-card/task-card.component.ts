@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import Task from '../../Task';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-task-card',
@@ -9,5 +10,7 @@ import Task from '../../Task';
 export class TaskCardComponent {
 
   @Input() task!: Task;
+
+  faTimes = faTimes;
 
 }

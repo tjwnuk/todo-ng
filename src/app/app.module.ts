@@ -6,19 +6,30 @@ import { HeaderComponent } from './header/header.component';
 import { TaskCardComponent } from './task-card/task-card.component';
 import { TaskContainerComponent } from './task-container/task-container.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NewTodoComponent } from './new-todo/new-todo.component';
+
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TaskCardComponent,
-    TaskContainerComponent
+    TaskContainerComponent,
+    NewTodoComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
